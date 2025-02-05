@@ -1,0 +1,23 @@
+{
+  "name": "debounce-throttle-utility",
+  "version": "1.0.0",
+  "description": "A lightweight utility for debouncing and throttling functions, optimized for performance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paradoxial-composition/debounce-throttle-utility.git"
+  },
+  "keywords": ["debounce", "throttle", "utility", "performance", "scroll", "input", "resize"],
+  "author": "elbani.othman@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paradoxial-composition/debounce-throttle-utility/issues"
+  },
+  "homepage": "https://github.com/paradoxial-composition/debounce-throttle-utility#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
