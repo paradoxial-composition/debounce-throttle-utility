@@ -1,6 +1,4 @@
-// test.js
-
-const { debounce, throttle } = require('./index');
+import { debounce, throttle } from './src/index';
 
 describe('Debounce', () => {
     it('should delay execution', async () => {
@@ -31,7 +29,7 @@ describe('Throttle', () => {
         expect(count).toBe(1); // Should execute only once within 100ms
     });
 
-    it('should be executed only twice in a 500ms interval ', async () => {
+    it('should be executed only twice in a 500ms interval', async () => {
         let count = 0;
         const throttled = throttle(() => {
             count++;
